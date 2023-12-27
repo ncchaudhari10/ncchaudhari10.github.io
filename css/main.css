@@ -1095,7 +1095,7 @@ header .row {
 }
 header .top-bar {
 	display: block;
-	background: #000000;
+	background: transparent;
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
@@ -1268,6 +1268,7 @@ header .logo a {
 @media only screen and (max-width:1024px) {
 	header .top-bar {
 		left: 60px;
+		display:None;
 
 	}
 }
@@ -1275,18 +1276,21 @@ header .logo a {
 	header .top-bar {
 		left: 50px;
 		min-width: 0px;
+		display: none;
 	}
 }
 @media only screen and (max-width:600px) {
 	header .top-bar {
 		left: 35px;
 		min-width: 0px;
+		display: none;
 	}
 }
 @media only screen and (max-width:400px) {
 	header .top-bar {
 		left: 25px;
 		min-width: 0px;
+		display: none;
 	}
 }
 
