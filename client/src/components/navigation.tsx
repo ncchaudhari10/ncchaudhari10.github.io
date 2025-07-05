@@ -2,6 +2,10 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
+function NC() {
+  return <span>&lt; NC /&gt;</span>;
+}
+
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -23,7 +27,7 @@ export default function Navigation() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 400 }}
           >
-            N.Chaudhari
+            <NC />
           </motion.div>
           
           {/* Desktop Navigation */}

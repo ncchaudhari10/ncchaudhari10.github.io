@@ -58,10 +58,36 @@ export default function Starfield() {
         star.opacity += Math.sin(Date.now() * star.twinkleSpeed) * 0.01;
         star.opacity = Math.max(0.1, Math.min(1, star.opacity));
 
+        ctx.save();
+        ctx.globalAlpha = star.opacity;
         ctx.beginPath();
-        ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(255, 255, 255, ${star.opacity})`;
+        // Draw a uniform, centered 5-pointed star
+        const spikes = 5;
+        const outerRadius = star.size;
+        const innerRadius = star.size / 2.5;
+        let rot = -Math.PI / 2; // Start at the top
+        let step = Math.PI / spikes;
+        let x = star.x;
+        let y = star.y;
+        ctx.moveTo(x + Math.cos(rot) * outerRadius, y + Math.sin(rot) * outerRadius);
+        for (let i = 0; i < spikes; i++) {
+          ctx.lineTo(
+            x + Math.cos(rot) * outerRadius,
+            y + Math.sin(rot) * outerRadius
+          );
+          rot += step;
+          ctx.lineTo(
+            x + Math.cos(rot) * innerRadius,
+            y + Math.sin(rot) * innerRadius
+          );
+          rot += step;
+        }
+        ctx.closePath();
+        ctx.fillStyle = `rgba(255, 255, 255, 1)`;
+        ctx.shadowColor = '#fff';
+        ctx.shadowBlur = 8;
         ctx.fill();
+        ctx.restore();
       });
 
       // Update and draw comets

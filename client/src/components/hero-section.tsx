@@ -14,7 +14,7 @@ export default function HeroSection() {
       label: "GitHub"
     },
     {
-      href: "mailto:n.c.chaudhari10@gmail.com",
+      href: "mailto:chaudhari.niraj@northeastern.edu",
       icon: Mail,
       label: "Email"
     },
@@ -35,9 +35,9 @@ export default function HeroSection() {
           className="mb-8"
         >
           <img
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
+            src="./photo.jpeg"
             alt="Niraj Chaudhari - AI Research Scientist"
-            className="w-48 h-48 rounded-full mx-auto border-4 border-cosmic-gold shadow-2xl object-cover"
+            className="w-48 h-48 rounded-full mx-auto border-4 border-cosmic-purple shadow-2xl object-cover"
           />
         </motion.div>
 
@@ -45,7 +45,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-6xl md:text-8xl font-bold mb-6 text-cosmic-gold animate-glow"
+          className="text-6xl md:text-8xl font-bold mb-6 text-cosmic-gold shadow-glow"
         >
           Niraj Chaudhari
         </motion.h1>
@@ -54,7 +54,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="text-2xl md:text-3xl mb-4 text-cosmic-silver"
+          className="text-2xl md:text-3xl mb-4 text-cosmic-purple"
         >
           AI Research Scientist
         </motion.p>
@@ -100,7 +100,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 1.2 }}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="inline-block bg-cosmic-gold text-cosmic-dark px-8 py-4 rounded-full font-semibold hover:bg-yellow-400 transition-all duration-300"
+          className="inline-block bg-cosmic-purple text-cosmic-dark px-8 py-4 rounded-full font-semibold hover:bg-purple-400 transition-all duration-300"
         >
           Explore My Universe
         </motion.a>

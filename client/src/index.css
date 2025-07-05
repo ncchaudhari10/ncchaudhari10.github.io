@@ -137,6 +137,10 @@
     border-color: var(--cosmic-gold);
   }
   
+  .border-cosmic-purple {
+    border-color: var(--cosmic-purple);
+  }
+  
   .font-mono {
     font-family: 'JetBrains Mono', monospace;
   }
