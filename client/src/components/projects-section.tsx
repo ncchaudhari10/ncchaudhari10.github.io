@@ -5,7 +5,7 @@ const publications = [
 	{
 		title: "Deep Learning-based Downscaling of Meteorological Data",
 		description:
-			"Published research on enhancing rainfall resolution using CNN architectures. Achieved 4x resolution improvement with correlation ρ = 0.86.",
+			"Co-authored a research paper that presents a novel approach using deep learning techniques to improve the accuracy of monsoon rainfall predictions in India. We developed a convolutional neural network that accurately downscales rainfall data to a higher spatial resolution.",
 		equation: "ρ = 0.86, Resolution: 4x (0.125° × 0.125°)",
 		link: "https://link.springer.com/article/10.1007/s00704-020-03489-6",
 		icon: FileText,
@@ -13,7 +13,7 @@ const publications = [
 	{
 		title: "Nowcasting of Satellite Imagery using ConvLSTM",
 		description:
-			"Award-winning solution at Smart India Hackathon 2020 for ISRO. Developed innovative autoencoder architecture for satellite forecasting.",
+			"Award-winning solution at Smart India Hackathon 2020 for ISRO. Engineered an innovative autoencoder architecture with convLSTM, achieving exceptional correlations above 0.85 for predictions.",
 		equation: "Correlation > 0.85, Winner SIH 2020",
 		link: "https://github.com/ncchaudhari10/nowcasting_of_satellite_images",
 		icon: Trophy,
@@ -26,21 +26,21 @@ const projects = [
 		description:
 			"Advanced diffusion model for grayscale to color transformation using state-of-the-art techniques.",
 		icon: Palette,
-		link: "https://github.com/ncchaudhari10",
+		link: "https://github.com/ncchaudhari10/colorization",
 	},
 	{
 		title: "Research Paper RAG System",
 		description:
 			"NLP-powered retrieval system for academic research with advanced document processing capabilities.",
 		icon: Search,
-		link: "https://github.com/ncchaudhari10",
+		link: "https://github.com/ncchaudhari10/research_paper_answering_rag",
 	},
 	{
 		title: "Classifier-guided Diffusion",
 		description:
 			"Advanced diffusion techniques exploring both guided and free generation methodologies.",
 		icon: Brain,
-		link: "https://github.com/ncchaudhari10",
+		link: "https://github.com/ncchaudhari10/Classifier-Guided-Diffusion",
 	},
 ];
 

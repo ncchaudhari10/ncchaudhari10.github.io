@@ -41,7 +41,7 @@ export default function FloatingEquations() {
 					return (
 						<motion.div
 							key={index}
-							className="floating-equation absolute font-mono text-sm text-cosmic-gold opacity-60"
+							className="floating-equation absolute font-mono text-sm opacity-60"
 							style={{ left: baseX, top: baseY, width: "max-content" }}
 							animate={{
 								x: [0, dx, 0],

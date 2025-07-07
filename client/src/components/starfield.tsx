@@ -28,7 +28,7 @@ export default function Starfield() {
     }> = [];
 
     // Create stars
-    for (let i = 0; i < 200; i++) {
+    for (let i = 0; i < 400; i++) { // Increased from 200 to 400
       stars.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,

@@ -42,17 +42,17 @@ export default function Home() {
         <JourneyTimeline />
         <ResearchSection />
         <ProjectsSection />
-        <SkillsSection />
+        {/* <SkillsSection /> */}
         <ConnectSection />
       </main>
       
       <footer className="py-8 border-t border-cosmic-gold border-opacity-20 relative z-10">
         <div className="container mx-auto px-6 text-center">
           <p className="text-cosmic-silver">
-            © 2025 Niraj Chaudhari. Crafted with ❤️ and cosmic inspiration.
+            &copy; {new Date().getFullYear()} Niraj Chaudhari.
           </p>
           <p className="text-cosmic-silver opacity-75 mt-2">
-            "Where quantum mechanics meets timeless wisdom"
+            "Always curious, always learning, always pushing the boundaries of data exploration to empower smarter decisions."
           </p>
         </div>
       </footer>

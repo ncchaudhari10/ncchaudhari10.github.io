@@ -37,8 +37,8 @@ const timelineData = [
 		company: "Tata Consultancy Services",
 		period: "August 2020 - August 2023",
 		description:
-			"Led SSO implementation across 100+ products. Built LSTM models for CPU forecasting, achieving 99.97% availability and preventing 10 incidents/month.",
-		tags: ["LSTM", "99.97% Uptime", "Azure"],
+			"Executed A/B testing to refine product features and elevate user engagement in the rollout of Single Sign-On (SSO) across 100+ products. Integrated advanced SQL in ETL pipelines for thorough data collection and harnessed Power BI for impactful visualizations.",
+		tags: ["Python", "A/B testing", "Software Development", "Statistical Analysis"],
 		icon: Server,
 		side: "right",
 	},
@@ -47,8 +47,8 @@ const timelineData = [
 		company: "Indian Institute of Tropical Meteorology",
 		period: "June 2019 - April 2020",
 		description:
-			"Developed deep learning downscaling methods, enhancing rainfall resolution by 4x. Achieved correlation ρ = 0.86 using CNN architectures on supercomputing infrastructure.",
-		tags: ["CNN", "4x Resolution", "ρ = 0.86"],
+			"Developed and implemented DeepSD, a deep learning based statistical downscaling model for generating high resolution maps of precipitation over India.",
+		tags: ["Deep Learning", "CNN", "ρ = 0.86"],
 		icon: CloudRain,
 		side: "left",
 	},
@@ -79,7 +79,7 @@ export default function JourneyTimeline() {
 						Professional Journey
 					</h2>
 					<p className="text-xl text-cosmic-silver max-w-3xl mx-auto">
-						Navigating the constellation of AI research and data science across
+						More of my credentials in AI research and data science across
 						academia and industry
 					</p>
 				</motion.div>
